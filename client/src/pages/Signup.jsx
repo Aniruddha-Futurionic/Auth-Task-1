@@ -21,11 +21,6 @@ const Signup = () => {
   const [answer, setAnswer] = useState("");
   const signupMutation = useSignup();
 
-  console.log(email);
-  console.log(password);
-  console.log(question);
-  console.log(answer);
-
   const handleSubmit = async (e) => {
     e.preventDefault();
     const userData = {
